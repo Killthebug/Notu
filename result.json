@@ -1,0 +1,44 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "confidence": 0.815,
+                    "transcript": "now before I start just a very quick announcements %HESITATION if you %HESITATION bought anything at the wonderful pie lady's auction last night you need to pick it up at registration %HESITATION during the break right now %HESITATION my buddy picks my tie up "
+                }
+            ],
+            "final": true
+        },
+        {
+            "alternatives": [
+                {
+                    "confidence": 0.981,
+                    "transcript": "thank you "
+                }
+            ],
+            "final": true
+        },
+        {
+            "alternatives": [
+                {
+                    "confidence": 0.83,
+                    "transcript": "so hi good morning I'm I'm Jacob Kaplan mas um I'm one of the contributors to Django and I'm the director of security at parochial %HESITATION and when I say thank you I I really mean it I'm "
+                }
+            ],
+            "final": true
+        },
+        {
+            "alternatives": [
+                {
+                    "confidence": 0.752,
+                    "transcript": "it's hard for me to "
+                }
+            ],
+            "final": true
+        }
+    ],
+    "result_index": 0,
+    "warnings": [
+        "Unknown arguments: continuous."
+    ]
+}
