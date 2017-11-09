@@ -44,12 +44,12 @@ def cleanJSON():
 	data = json.loads(file);
 	wordTimeMap = {};
 	
-	for x in data['results']:
-		for y in x:
-			if type(x[y]) == bool:
-				continue
-			for z in x[y]:
-				for item in z['timestamps']:
+	for element in data['results']:
+		for iterator in element:
+			if type(element[iterator]) == bool:
+				continue	
+			for iterObject in element[iterator]:
+				for item in iterObject['timestamps']:
 					wordTimeMap[(item[1], item[2])] = item[0]
 
 	return wordTimeMap
